@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volvo Cars Shop</title>
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+  <div id="navbar"></div>
+
+  <header class="hero">
+
+    <!-- whatsapp-button -->
+    <a href="https://wa.me/7828271011?text=Hi%20I%20saw%20your%20website%20and%20want%20to%20contact%20you"
+      class="whatsapp-button" target="_blank">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <i class="fa-brands fa-whatsapp" style="font-size:40px; color:green;"></i>
+    </a>
+    
+
+    <h1>Welcome to Volvo Cars Shop</h1>
+    <p>Luxury, comfort, and innovation — explore our range of buses & cars.</p>
+    <a href="products.html"><button>Explore Products</button></a>
+  </header>
+
+  <section class="products" id="products">
+    <!-- Cars will be loaded dynamically here -->
+  </section>
+
+  <div id="footer"></div>
+
+  <!-- ===== Modal HTML ===== -->
+<div class="custom-modal-overlay" id="centerAlert" aria-hidden="true">
+  <div class="custom-modal" role="dialog" aria-modal="true" aria-labelledby="alertTitle">
+    <h2 id="alertTitle">Alert</h2>
+    <p id="alertMessage">This is a test alert.</p>
+    <div class="actions">
+      <button class="custom-btn-ok" id="okBtn">OK</button>
+      <button class="custom-btn-close" id="closeBtn">Close</button>
+    </div>
+  </div>
+</div>
+
+
+  <script src="main.js"></script>
+  <script src="products.js"></script>
+
+ 
+</body>
+
+</html>

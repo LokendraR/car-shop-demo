@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart - Volvo Cars Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar will load dynamically -->
+  <div id="navbar"></div>
+
+
+   <!-- whatsapp-button -->
+    <a href="https://wa.me/7828271011?text=Hi%20I%20saw%20your%20website%20and%20want%20to%20contact%20you"
+      class="whatsapp-button" target="_blank">
+      <!-- Font Awesome WhatsApp Icon -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+      <i class="fa-brands fa-whatsapp" style="font-size:40px; color:green;"></i>
+
+    </a>
+
+    
+  <main class="content">
+    <h1>Your Shopping Cart</h1>
+    <section id="cart-items"></section>
+
+    <div class="cart-summary">
+      <h2><span id="cart-total">0</span></h2>
+    </div>
+  </main>
+
+  <!-- Footer will load dynamically -->
+  <div id="footer"></div>
+
+
+  
+    <!-- ===== Modal HTML ===== -->
+  <div class="custom-modal-overlay" id="centerAlert" aria-hidden="true">
+    <div class="custom-modal" role="dialog" aria-modal="true" aria-labelledby="alertTitle">
+      <h2 id="alertTitle">Welcome!</h2>
+      <p id="alertMessage">Volvo Cars Shop me aapka swagat hai 🚗✨</p>
+      <div class="actions">
+        <button class="custom-btn-ok" id="okBtn">OK</button>
+        <button class="custom-btn-close" id="closeBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+
+  
+<script src="products.js"></script>
+</body>
+</html>
